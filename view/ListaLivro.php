@@ -7,10 +7,29 @@ $livros = $controller->listar();
 <style>
 
 body {
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #9de2dc;
+    background-color: #9c9da7;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.voltarPagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 </style>
@@ -22,7 +41,7 @@ body {
     <title>Livros</title>
 </head>
 <body class = body>
-    <h2>Livros cadastrados</h2>
+    <h2 class="titulo">Livros cadastrados</h2>
     <?php if (count($livros) > 0): ?>
         <table border="1">
             <thead>
@@ -49,8 +68,8 @@ body {
     <?php else: ?>
         <p>Nenhum livro cadastrado.</p>
     <?php endif; ?>
-    <a href="CadastrarLivro.php">Cadastrar novo livro</a>
+    <a href="CadastrarLivro.php" class="cadastrar">Cadastrar novo livro</a>
     <br>
-    <a href="PaginaPrincipal.php">Voltar para a página principal</a>
+    <a href="PaginaPrincipal.php" class="voltarPagina">Voltar para a página principal</a>
 </body>
 </html>

@@ -2,14 +2,13 @@
 
 body {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #9de2dc;
+    margin: auto;
+    padding: 50px;
+    background-color: #9c9da7;
 }
 
 .titulo {
     text-align: center;
-    color: #000000;
 }
 
 .autor{

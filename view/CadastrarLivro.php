@@ -15,7 +15,7 @@ body {
     width: 400px;
     margin: 0 auto;
     padding: 50px;
-    background-color: #9de2dc;
+    background-color: #9c9da7;
 }
 
 </style>
