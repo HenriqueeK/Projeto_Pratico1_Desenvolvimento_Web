@@ -4,6 +4,8 @@ require_once __DIR__ . '/../controller/ControlaAutor.php';
 $controller   = new ControlaAutor();
 $autores = $controller->listar();
 ?>
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <style>
 
@@ -11,7 +13,7 @@ body {
     width: 500px;
     margin: 0 auto;
     padding: 50px;
-    background-color: #9c9da7;
+    background-color: #bfc0c7;
     
 }
 
@@ -35,8 +37,7 @@ body {
 }
 
 </style>
-<!DOCTYPE html>
-<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Livros</title>
@@ -69,6 +70,6 @@ body {
     <?php endif; ?>
     <a href="CadastrarAutor.php" class="cadastrar">Cadastrar novo autor</a>
     <br>
-    <a href="PaginaPrincipal.php" class="voltarPagina">Voltar para a página principal</a>
+    <a href="index.php" class="voltarPagina">Voltar para a página principal</a>
 </body>
 </html>

@@ -7,19 +7,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <style>
 
 body {
     width: 400px;
     margin: 0 auto;
     padding: 50px;
-    background-color: #9c9da7;
+    background-color: #bfc0c7;
 }
 
 </style>
 
-<!DOCTYPE html>
-<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,6 +42,6 @@ body {
     </form>
     <a href="ListaAutor.php">Ver autores cadastrados</a>
     <br>
-    <a href="PaginaPrincipal.php">Voltar para a página principal</a>
+    <a href="index.php">Voltar para a página principal</a>
 </body>
 </html>

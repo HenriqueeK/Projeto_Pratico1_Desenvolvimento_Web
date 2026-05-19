@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../dao/AutorDao.php';
-require_once __DIR__ . '/../model/Autor.php';
+
 
 class ControlaAutor
 {

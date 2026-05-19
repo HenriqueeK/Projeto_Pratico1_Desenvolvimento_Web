@@ -1,10 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <style>
 
 body {
     max-width: 800px;
     margin: auto;
     padding: 50px;
-    background-color: #9c9da7;
+    background-color: #bfc0c7;
 }
 
 .titulo {
@@ -26,11 +29,8 @@ body {
     gap: 10px;
     margin-top: 30px;
 }
-
-
 </style>
-<!DOCTYPE html>
-<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
